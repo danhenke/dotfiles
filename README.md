@@ -1,6 +1,13 @@
-# Bootstrap for new OS X machines
+# Bootstrap a new Mac
 
-Run the following command to bootstrap a new OSX machine:
+Run the following to bootstrap a new Mac:
+
 ```bash
-curl --silent https://raw.githubusercontent.com/danhenke/osx/master/install.sh | sh
+git clone https://github.com/danhenke/osx.git
+./osx/install.sh
 ```
+
+## Inspiration
+
+- https://github.com/herrbischoff/awesome-osx-command-line
+- https://github.com/mathiasbynens/dotfiles
