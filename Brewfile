@@ -11,10 +11,8 @@ brew "jq"
 brew "go"
 brew "doctl"
 brew "awscli"
-brew "mitmproxy"
-brew "php71"
+brew "php"
 brew "composer"
-brew "docker-machine"
 
 # Install Apps
 cask "1password-cli"
@@ -24,7 +22,6 @@ cask "atom"
 cask "whatsapp"
 cask "vlc"
 cask "docker"
-cask "discord"
 
 # Install App Store Apps
 mas "1Password", id: 443987910
