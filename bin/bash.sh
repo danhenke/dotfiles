@@ -6,7 +6,7 @@ touch ~/.hushlogin
 
 cat << EOF > $HOME/.bash_profile
 # Add go binaries to path
-export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 # Tell ls to be colourful
 export TERM="xterm-color"
