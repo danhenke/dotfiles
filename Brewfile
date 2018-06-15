@@ -26,7 +26,7 @@ cask "vlc"
 cask "docker"
 
 # Install App Store Apps
-mas "1Password", id: 443987910
+mas "1Password 7", id: 1333542190
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
