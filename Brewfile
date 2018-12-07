@@ -10,7 +10,6 @@ brew "wget"
 brew "yarn"
 brew "jq"
 brew "go"
-brew "delve"
 brew "doctl"
 brew "awscli"
 brew "php"
@@ -26,7 +25,7 @@ cask "vlc"
 cask "docker"
 
 # Install App Store Apps
-mas "1Password 7", id: 1333542190
+mas "1Password 7 - Password Manager", id: 1333542190
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959

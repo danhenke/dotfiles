@@ -4,7 +4,7 @@ Run the following to bootstrap a new Mac:
 
 ```bash
 git clone https://github.com/danhenke/macos.git
-./osx/install.sh
+./macos/install.sh
 ```
 
 ## Inspiration

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+mkdir -p "$HOME/.ssh"
+
 if [ ! -e "$HOME/.ssh/id_rsa" ]; then
   op get document "SSH Private Key" > "$HOME/.ssh/id_rsa"
   chmod 600 "$HOME/.ssh/id_rsa"
