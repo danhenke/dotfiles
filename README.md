@@ -3,7 +3,7 @@
 Run the following to bootstrap a new Mac:
 
 ```bash
-git clone https://github.com/danhenke/macos.git
+git clone git@github.com:danhenke/macos.git
 ./macos/install.sh
 ```
 
