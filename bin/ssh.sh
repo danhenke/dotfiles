@@ -13,10 +13,10 @@ if [ ! -e "$HOME/.ssh/id_rsa.pub" ]; then
 fi
 
 if [ ! -e "$HOME/.ssh/config" ]; then
-  cat << EOF > $HOME/.ssh/config
-  Host *
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_rsa
-  EOF
+cat << EOF > $HOME/.ssh/config
+Host *
+UseKeychain yes
+AddKeysToAgent yes
+IdentityFile ~/.ssh/id_rsa
+EOF
 fi
