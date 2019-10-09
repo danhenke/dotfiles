@@ -20,7 +20,6 @@ cask "1password-cli"
 cask "dropbox"
 cask "google-chrome"
 cask "atom"
-cask "whatsapp"
 cask "vlc"
 cask "docker"
 
