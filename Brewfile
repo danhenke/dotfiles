@@ -1,20 +1,19 @@
-cask_args appdir: "/Applications"
-
 # Install Binaries
 brew "coreutils"
+brew "diffutils"
 brew "findutils"
+brew "gnu-sed"
+brew "grep"
+brew "gzip"
+brew "wget"
+brew "make"
 brew "git"
 brew "hub"
 brew "mas"
-brew "wget"
-brew "yarn"
 brew "jq"
 brew "go"
-brew "glide"
 brew "doctl"
 brew "awscli"
-brew "php"
-brew "composer"
 
 # Install Apps
 cask "1password-cli"
