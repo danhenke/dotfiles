@@ -10,7 +10,7 @@ fi
 
 # Install/update homebrew command line tool
 if ! $(which brew &>/dev/null); then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" &>/dev/null
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
   brew update
 fi
