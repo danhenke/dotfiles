@@ -5,9 +5,6 @@ set -e
 touch ~/.hushlogin
 
 cat << EOF > $HOME/.bash_profile
-# Add go binaries to path
-export PATH="$PATH:$(go env GOPATH)/bin"
-
 # Tell ls to be colourful
 export TERM="xterm-color"
 export CLICOLOR=1
@@ -19,6 +16,11 @@ export GREP_OPTIONS='--color=auto'
 
 # Pretty prompt
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\] \$ "
+
+# Golang
+export PATH="$PATH:$(go env GOPATH)/bin"
+export GOPROXY=direct
+export GOSUMDB=off
 
 # Aliases
 alias git=hub
