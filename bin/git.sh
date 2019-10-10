@@ -7,3 +7,4 @@ git config --global credential.helper osxkeychain
 git config --global pager.log `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
 git config --global pager.show `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
 git config --global pager.diff `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight
+git config --global url.git@github.com:.insteadOf https://github.com/
