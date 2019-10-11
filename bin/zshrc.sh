@@ -14,7 +14,7 @@ export LSCOLORS="Exfxcxdxbxegedabagacad"
 export GREP_OPTIONS="--color=auto"
 
 # Pretty prompt
-export PROMPT="%F{cyan}%n%f@%F{green}%m:%f%B%F{yellow}%/%f%b %# "
+export PROMPT="%F{cyan}%n%f@%F{green}%m:%f%B%F{yellow}%~%f%b %# "
 
 # Golang
 export PATH="\$PATH:\$(go env GOPATH)/bin"
