@@ -8,6 +8,13 @@ git clone https://github.com/danhenke/macos.git
 ./macos/install.sh
 ```
 
+Install the following manually via Mac App Store.
+
+- 1Password 7
+- Numbers
+- Pages
+- Slack
+
 ## Inspiration
 
 - https://github.com/herrbischoff/awesome-osx-command-line
