@@ -12,6 +12,7 @@ git config --global url.git@github.com:.insteadOf https://github.com/
 git config --global core.excludesfile '~/.gitignore.global'
 git config --global push.followTags true
 git config --global remote.origin.prune true
+git config --global pull.ff only
 
 cat << EOF > $HOME/.gitignore.global
 .DS_Store
