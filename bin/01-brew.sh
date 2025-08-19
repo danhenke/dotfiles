@@ -6,4 +6,4 @@ else
 fi
 
 # Install binaries and apps from Brewfile
-brew bundle
+brew bundle --file="$DIR/Brewfile"
