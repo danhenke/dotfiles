@@ -1,9 +1,7 @@
-#!/usr/bin/env bash
-set -e
-
 # Disable system MOTD
 touch ~/.hushlogin
 
+# Generate .zshrc file
 cat << EOF > $HOME/.zshrc
 # Pretty prompt
 export PROMPT="%F{cyan}%n%f@%F{green}%m:%f%B%F{yellow}%~%f%b %# "

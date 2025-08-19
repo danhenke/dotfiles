@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Show the tab bar by default
 defaults write com.apple.Safari AlwaysShowTabBar -boolean true
 

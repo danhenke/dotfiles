@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Set computer name (as done via System Preferences → Sharing)
 NAME="DanMBP"
 sudo scutil --set ComputerName "$NAME"

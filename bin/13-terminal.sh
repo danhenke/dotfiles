@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Only use UTF-8 in Terminal
 defaults write com.apple.terminal StringEncodings -array 4
 

@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Set "Desktop" as the default location for new Finder windows
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"

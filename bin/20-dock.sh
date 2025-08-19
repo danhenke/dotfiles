@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 

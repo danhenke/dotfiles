@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-set -e
-
 # Start screensaver after idle for time (in seconds)
 defaults -currentHost write com.apple.screensaver idleTime -int 300
 
