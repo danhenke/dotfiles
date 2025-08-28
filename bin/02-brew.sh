@@ -5,5 +5,8 @@ else
   brew update
 fi
 
+# Disable analytics
+brew analytics off
+
 # Install binaries and apps from Brewfile
 brew bundle --file="$DIR/Brewfile"

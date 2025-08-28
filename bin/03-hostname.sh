@@ -1,5 +1,5 @@
 # Set computer name (as done via System Preferences → Sharing)
-NAME="DanMBP"
+NAME="DanMB"
 sudo scutil --set ComputerName "$NAME"
 sudo scutil --set HostName "$NAME"
 sudo scutil --set LocalHostName "$NAME"

@@ -1,19 +1,25 @@
 # Install Binaries
-brew "mas"
-brew "wget"
-brew "jq"
-brew "go"
-brew "gh"
-brew "node"
-brew "doctl"
+brew "adr-tools"
 brew "awscli"
+brew "doctl"
+brew "gh"
+brew "git-delta"
+brew "go"
+brew "jq"
+brew "kubectl"
+brew "kubectx"
+brew "mas"
+brew "node"
+brew "starship"
+brew "wget"
 
 # Install Apps
-cask "visual-studio-code"
-cask "docker"
 cask "chatgpt"
+cask "docker"
+cask "google-chrome"
+cask "visual-studio-code"
 
 # Mac App Store
-mas "Slack", id: 803453959
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Slack", id: 803453959
