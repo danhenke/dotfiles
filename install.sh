@@ -6,7 +6,7 @@ git clone git@github.com:danhenke/dotfiles.git
 
 # Run every script in bin dir
 export DIR="$(cd $(dirname "$0"); pwd)"
-for FILE in "$DIR/bin/"*.sh; do
+for FILE in "$DIR/bin/"[0-9]*.sh; do
   source "$FILE"
 done
 
