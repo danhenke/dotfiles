@@ -3,3 +3,6 @@ sudo -v
 
 # Refresh existing `sudo` timer until script has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+# Allow touch ID for sudo
+echo "auth sufficient pam_tid.so" > /etc/pam.d/sudo_local
