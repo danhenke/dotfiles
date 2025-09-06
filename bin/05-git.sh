@@ -23,3 +23,5 @@ git config --global core.excludesfile '~/.gitignore.global'
 cat << EOF > $HOME/.gitignore.global
 .DS_Store
 EOF
+
+gh auth login --web --skip-ssh-key --hostname github.com --git-protocol ssh
