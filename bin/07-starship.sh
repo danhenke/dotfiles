@@ -3,6 +3,7 @@ mkdir -p "$HOME/.config"
 # Regenerate SSH config
 if [ ! -e "$HOME/.config/starship.toml" ]; then
 cat << EOF > $HOME/.config/starship.toml
+# Refer https://starship.rs/config/
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
