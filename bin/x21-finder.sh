@@ -23,6 +23,12 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 # Remove tags
 defaults write com.apple.finder ShowRecentTags -bool false
 
+# Show the path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Open folders in new Finder windows instead of tabs
+defaults write com.apple.finder FinderSpawnTab -bool false
+
 # Allow quitting Finder
 defaults write com.apple.finder QuitMenuItem -bool true
 
@@ -42,6 +48,11 @@ defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
+
+# Automatically open a new Finder window when a volume is mounted
+defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
+defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
+defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 # Save to disk by default
 defaults write -g NSDocumentSaveNewDocumentsToCloud -bool false
