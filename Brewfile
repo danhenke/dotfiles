@@ -50,6 +50,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 
 # VScode extensions
+vscode "ms-azuretools.vscode-containers"        # Container Tools
 vscode "golang.go"                              # Go
 vscode "ms-python.python"                       # Python
 vscode "amazonwebservices.aws-toolkit-vscode"   # AWS Toolkit
