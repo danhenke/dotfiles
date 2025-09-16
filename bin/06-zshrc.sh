@@ -75,6 +75,12 @@ setopt HIST_VERIFY
 # Save the time and how long a command ran
 setopt EXTENDED_HISTORY
 
+# Zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
+# fzf
+source <(fzf --zsh)
+
 # Aliases
 alias ..='cd ..'
 alias ...='cd ../..'

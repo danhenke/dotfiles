@@ -4,6 +4,8 @@ brew "font-fira-code-nerd-font"
 brew "starship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+brew "zoxide"
+brew "fzf"
 
 # Languages
 brew "go"
