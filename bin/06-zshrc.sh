@@ -3,6 +3,10 @@ touch ~/.hushlogin
 
 # Generate .zshrc file
 cat << EOF > $HOME/.zshrc
+# Brew completions
+autoload -Uz compinit
+compinit
+
 # Starship
 eval "$(starship init zsh)"
 
