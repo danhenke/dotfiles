@@ -91,6 +91,7 @@ alias la='lsd -a'
 alias lla='lsd -la'
 alias lt='lsd --tree'
 alias grep='grep --color=auto'
+alias c="code ."
 EOF
 
 # Apply changes to current bash environment
