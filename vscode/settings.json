@@ -1,0 +1,33 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.size": "fit",
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "afterDelay",
+
+  "workbench.startupEditor": "none",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "Ghostty.app",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.smoothScrolling": true
+}
