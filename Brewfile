@@ -1,12 +1,14 @@
-# Shells
+# Shell tools
+brew "bat"
 brew "ghostty"
 brew "docker-completion"
 brew "font-jetbrains-mono-nerd-font"
+brew "fzf"
+brew "lsd"
 brew "starship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "zoxide"
-brew "fzf"
 
 # Languages
 brew "go"
@@ -27,9 +29,9 @@ brew "git-delta"
 brew "nao1215/tap/gup"
 brew "httpie"
 brew "jq"
-brew "lsd"
 brew "mas"
 brew "ngrok"
+brew "pnpm"
 brew "wget"
 
 # Infra tools
