@@ -9,4 +9,4 @@ fi
 brew analytics off
 
 # Install binaries and apps from Brewfile
-brew bundle --file="$DIR/Brewfile"
+brew bundle --file="$DIR/brew/Brewfile"
