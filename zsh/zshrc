@@ -20,6 +20,9 @@ export GOSUMDB="off"
 # see https://code.visualstudio.com/docs/terminal/shell-integration
 [[ "$TERM_PROGRAM" == "vscode" ]] && source "$(code --locate-shell-integration-path zsh)"
 
+# Use bat as a colorizing pager for man
+export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"
+
 # Where to save history
 HISTFILE="$HOME/.history"
 
