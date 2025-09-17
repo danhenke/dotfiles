@@ -62,3 +62,5 @@ vscode "ms-vscode.live-server"                  # Live Server
 vscode "tomoki1207.pdf"                         # vscode-pdf
 vscode "esbenp.prettier-vscode"                 # Prettier
 vscode "dbaeumer.vscode-eslint"                 # ESLint
+vscode "catppuccin.catppuccin-vsc"              # Catppuccin Theme
+vscode "catppuccin.catppuccin-vsc-icons"        # Catppuccin Icons
