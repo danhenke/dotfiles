@@ -1,0 +1,35 @@
+[credential]
+        helper = osxkeychain
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+[core]
+        excludesfile = ~/.gitignore
+        pager = delta
+[gpg]
+        format = ssh
+[commit]
+        gpgsign = true
+[tag]
+        gpgsign = true
+[credential "https://github.com"]
+        helper =
+        helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+        helper =
+        helper = !/opt/homebrew/bin/gh auth git-credential
+[alias]
+        l = log --pretty='%C(dim cyan)%h%C(reset) %C(yellow)|%C(reset) %s%C(cyan)%d%C(reset) %C(dim)by %an %ar' --first-parent -20
+[push]
+        followTags = true
+[remote "origin"]
+        prune = true
+[pull]
+        ff = only
+[interactive]
+        diffFilter = delta --color-only
+[delta]
+        navigate = true
+        side-by-side = true
+        dark = true
+[merge]
+        conflictStyle = zdiff3

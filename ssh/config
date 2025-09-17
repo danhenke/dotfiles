@@ -1,0 +1,4 @@
+Host *
+UseKeychain yes
+AddKeysToAgent yes
+IdentityFile ~/Documents/ssh/id_ed25519
