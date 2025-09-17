@@ -1,4 +1,5 @@
 # Shells
+brew "ghostty"
 brew "docker-completion"
 brew "font-jetbrains-mono-nerd-font"
 brew "starship"
