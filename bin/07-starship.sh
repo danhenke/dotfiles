@@ -1,6 +1,6 @@
 mkdir -p "$HOME/.config"
 
-# Regenerate SSH config
+# Regenerate starship config
 if [ ! -e "$HOME/.config/starship.toml" ]; then
 cat << EOF > $HOME/.config/starship.toml
 # Refer https://starship.rs/config/
