@@ -1,15 +1,16 @@
 # https://github.com/catppuccin/bat
+BAT="$(bat --config-dir)"
 
 # Restore bat config
-mkdir -p "$(bat --config-dir)"
-cp "$DIR/bat/config" "$(bat --config-dir)/config"
+mkdir -p "$BAT"
+cp "$DIR/bat/config" "$BAT/config"
 
 # Install themes
-mkdir -p "$(bat --config-dir)/themes"
-wget -qP "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Latte.tmTheme
-wget -qP "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Frappe.tmTheme
-wget -qP "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Macchiato.tmTheme
-wget -qP "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme
+mkdir -p "$BAT/themes"
+wget -qP "$BAT/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Latte.tmTheme
+wget -qP "$BAT/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Frappe.tmTheme
+wget -qP "$BAT/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Macchiato.tmTheme
+wget -qP "$BAT/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme
 
 # Rebuild bat cache
 bat cache --build
