@@ -1,6 +1,6 @@
 # Shells
 brew "docker-completion"
-brew "font-fira-code-nerd-font"
+brew "font-jetbrains-mono-nerd-font"
 brew "starship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
