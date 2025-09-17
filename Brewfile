@@ -65,3 +65,4 @@ vscode "esbenp.prettier-vscode"                 # Prettier
 vscode "dbaeumer.vscode-eslint"                 # ESLint
 vscode "catppuccin.catppuccin-vsc"              # Catppuccin Theme
 vscode "catppuccin.catppuccin-vsc-icons"        # Catppuccin Icons
+vscode "tamasfe.even-better-toml"               # TOML
