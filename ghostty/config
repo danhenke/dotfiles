@@ -5,3 +5,5 @@ window-padding-x = 5
 macos-option-as-alt = true
 macos-titlebar-proxy-icon = hidden
 macos-titlebar-style = tabs
+keybind = shift+super+arrow_right=next_tab
+keybind = shift+super+arrow_left=previous_tab
