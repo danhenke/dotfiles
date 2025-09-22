@@ -2,3 +2,4 @@
 VSCODE="$HOME/Library/Application Support/Code/User"
 mkdir -p "$VSCODE"
 cp "$DIR/vscode/settings.json" "$VSCODE/settings.json"
+cp "$DIR/vscode/keybindings.json" "$VSCODE/keybindings.json"
