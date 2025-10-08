@@ -12,6 +12,7 @@ brew "zoxide"
 
 # Languages
 brew "go"
+brew "php"
 brew "python"
 
 # Runtimes
@@ -22,6 +23,7 @@ brew "node"
 brew "adr-tools"
 brew "clang-format"
 brew "codex"
+brew "composer"
 brew "evans"
 brew "gh"
 brew "git"
@@ -37,6 +39,7 @@ brew "wget"
 # Infra tools
 brew "awscli"
 brew "doctl"
+brew "doppler"
 brew "infisical/get-cli/infisical"
 brew "kubectl"
 brew "kubectx"
