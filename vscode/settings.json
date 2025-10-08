@@ -15,6 +15,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
 
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
