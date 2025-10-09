@@ -21,6 +21,7 @@ brew "node"
 
 # Dev tools
 brew "adr-tools"
+brew "aws-cdk"
 brew "clang-format"
 brew "codex"
 brew "composer"
