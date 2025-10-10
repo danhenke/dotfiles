@@ -73,3 +73,4 @@ vscode "catppuccin.catppuccin-vsc"              # Catppuccin Theme
 vscode "catppuccin.catppuccin-vsc-icons"        # Catppuccin Icons
 vscode "tamasfe.even-better-toml"               # TOML
 vscode "bradlc.vscode-tailwindcss"              # Tailwind
+vscode "GitHub.vscode-pull-request-github"      # GitHub PRs
