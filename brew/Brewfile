@@ -39,12 +39,17 @@ brew "wget"
 
 # Infra tools
 brew "awscli"
+brew "cosign"
+brew "dive"
 brew "doctl"
 brew "doppler"
+brew "grype"
 brew "infisical/get-cli/infisical"
 brew "kubectl"
 brew "kubectx"
 brew "opentofu"
+brew "syft"
+brew "trivy"
 
 # Desktop apps
 cask "chatgpt"
