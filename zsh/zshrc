@@ -12,7 +12,7 @@ source `brew --prefix`/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source `brew --prefix`/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Golang
-export PATH="\$PATH:\$(go env GOPATH)/bin"
+export PATH="$PATH:$(go env GOPATH)/bin"
 export GOPROXY="direct"
 export GOSUMDB="off"
 
