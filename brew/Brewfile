@@ -2,6 +2,7 @@
 brew "bat"
 brew "ghostty"
 brew "docker-completion"
+brew "duf"
 brew "font-jetbrains-mono-nerd-font"
 brew "fzf"
 brew "lsd"
@@ -75,6 +76,7 @@ vscode "ms-vscode.live-server"                  # Live Server
 vscode "tomoki1207.pdf"                         # vscode-pdf
 vscode "esbenp.prettier-vscode"                 # Prettier
 vscode "dbaeumer.vscode-eslint"                 # ESLint
+vscode "yoavbls.pretty-ts-errors"               # Pretty TypeScript Errors
 vscode "catppuccin.catppuccin-vsc"              # Catppuccin Theme
 vscode "catppuccin.catppuccin-vsc-icons"        # Catppuccin Icons
 vscode "tamasfe.even-better-toml"               # TOML
