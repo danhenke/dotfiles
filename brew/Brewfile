@@ -85,3 +85,4 @@ vscode "tamasfe.even-better-toml"               # TOML
 vscode "bradlc.vscode-tailwindcss"              # Tailwind
 vscode "github.vscode-pull-request-github"      # GitHub PRs
 vscode "github.vscode-github-actions"           # Github Actions
+vscode "task.vscode-task"                       # Taskfile.dev
