@@ -17,6 +17,7 @@ brew "php"
 brew "python"
 
 # Runtimes
+brew "bun"
 brew "deno"
 brew "node"
 
