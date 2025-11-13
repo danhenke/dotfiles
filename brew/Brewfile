@@ -1,15 +1,18 @@
 # Shell tools
 brew "bat"
-brew "ghostty"
 brew "docker-completion"
 brew "duf"
 brew "font-jetbrains-mono-nerd-font"
 brew "fzf"
+brew "glow"
 brew "lsd"
 brew "starship"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "zoxide"
+
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
 
 # Languages
 brew "go"
@@ -24,7 +27,7 @@ brew "node"
 brew "adr-tools"
 brew "aws-cdk"
 brew "clang-format"
-brew "codex"
+cask "codex"
 brew "composer"
 brew "evans"
 brew "gh"
@@ -33,6 +36,7 @@ brew "git-delta"
 brew "golangci-lint"
 brew "go-task"
 brew "nao1215/tap/gup"
+brew "openapi-generator"
 brew "httpie"
 brew "jq"
 brew "mas"
@@ -55,14 +59,13 @@ brew "syft"
 brew "trivy"
 
 # Desktop apps
+cask "brave-browser"
 cask "chatgpt"
 cask "docker-desktop"
-cask "google-chrome"
+cask "ghostty"
 cask "microsoft-teams"
 cask "slack"
 cask "visual-studio-code"
-
-# App store apps
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 
