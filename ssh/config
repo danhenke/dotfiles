@@ -1,4 +1,6 @@
-Host *
-UseKeychain yes
-AddKeysToAgent yes
-IdentityFile ~/Documents/ssh/id_ed25519
+Host github.com
+  UseKeychain yes
+  AddKeysToAgent yes
+  PubkeyAcceptedAlgorithms ssh-ed25519
+  HostKeyAlgorithms ssh-ed25519
+  IdentityFile ~/Documents/ssh/github_id_ed25519
