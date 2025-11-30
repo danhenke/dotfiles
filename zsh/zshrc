@@ -79,6 +79,9 @@ eval "$(zoxide init --cmd cd zsh)"
 # fzf
 source <(fzf --zsh)
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # Aliases
 alias ..='cd ..'
 alias ...='cd ../..'
