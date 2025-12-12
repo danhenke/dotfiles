@@ -52,11 +52,10 @@ brew "dive"
 brew "doctl"
 brew "doppler"
 brew "grype"
-brew "infisical/get-cli/infisical"
 brew "kubectl"
 brew "kubectx"
-brew "opentofu"
 brew "syft"
+brew "hashicorp/tap/terraform"
 brew "trivy"
 
 # Desktop apps
@@ -75,7 +74,7 @@ vscode "ms-azuretools.vscode-containers"        # Container Tools
 vscode "golang.go"                              # Go
 vscode "ms-python.python"                       # Python
 vscode "amazonwebservices.aws-toolkit-vscode"   # AWS Toolkit
-vscode "opentofu.vscode-opentofu"               # OpenTofu
+vscode "hashicorp.terraform"                    # Terraform
 vscode "openai.chatgpt"                         # OpenAI Codex
 vscode "ms-vscode.live-server"                  # Live Server
 vscode "tomoki1207.pdf"                         # vscode-pdf
