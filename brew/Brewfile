@@ -64,6 +64,7 @@ brew "tflint"
 brew "trivy"
 
 # Desktop apps
+cask "1password"
 cask "brave-browser"
 cask "chatgpt"
 cask "docker-desktop"
@@ -71,8 +72,8 @@ cask "ghostty"
 cask "microsoft-teams"
 cask "slack"
 cask "visual-studio-code"
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 
 # VScode extensions
 vscode "ms-azuretools.vscode-containers"        # Container Tools
