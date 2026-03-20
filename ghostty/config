@@ -1,11 +1,16 @@
 theme = Catppuccin Mocha
-font-size = 14
+font-family = JetBrainsMonoNL Nerd Font
+font-size = 20
+font-feature = -liga,-calt,-dlig
 background-opacity = 0.85
 background-blur-radius = 20
-window-padding-x = 5
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
 macos-option-as-alt = true
 macos-titlebar-proxy-icon = hidden
 macos-titlebar-style = tabs
 keybind = shift+super+arrow_right=next_tab
 keybind = shift+super+arrow_left=previous_tab
-auto-update = off
+auto-update = check
+auto-update-channel = stable
