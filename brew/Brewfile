@@ -45,6 +45,7 @@ brew "ngrok"
 brew "pgcli"
 brew "pnpm"
 brew "pre-commit"
+brew "shellcheck"
 brew "wget"
 
 # Infra tools
