@@ -98,3 +98,5 @@ vscode "github.vscode-github-actions"           # Github Actions
 vscode "usernamehw.errorlens"                   # Error Lens
 vscode "aaron-bond.better-comments"             # Better Comments
 vscode "qufiwefefwoyn.inline-sql-syntax"        # Inline SQL
+vscode "hashicorp.hcl"				# HashiCorp HCL
+
