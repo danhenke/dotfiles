@@ -59,6 +59,7 @@ brew "grype"
 brew "infracost"
 brew "kubectl"
 brew "kubectx"
+brew "postgresql@18"
 brew "syft"
 brew "hashicorp/tap/terraform"
 brew "tflint"
@@ -99,4 +100,3 @@ vscode "usernamehw.errorlens"                   # Error Lens
 vscode "aaron-bond.better-comments"             # Better Comments
 vscode "qufiwefefwoyn.inline-sql-syntax"        # Inline SQL
 vscode "hashicorp.hcl"				# HashiCorp HCL
-
