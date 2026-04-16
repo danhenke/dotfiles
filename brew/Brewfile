@@ -47,6 +47,7 @@ brew "shellcheck"
 brew "wget"
 
 # Infra tools
+cask "1password-cli"
 brew "argocd"
 brew "awscli"
 brew "checkov"
