@@ -93,3 +93,11 @@ alias lla='lsd -la'
 alias lt='lsd --tree'
 alias grep='grep --color=auto'
 alias c="code ."
+
+# bun completions
+[ -s "/Users/dan/.bun/_bun" ] && source "/Users/dan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
