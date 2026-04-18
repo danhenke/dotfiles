@@ -24,6 +24,7 @@ brew "deno"
 brew "node"
 
 # Dev tools
+brew "actionlint"
 brew "aws-cdk"
 brew "clang-format"
 brew "composer"
