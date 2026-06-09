@@ -44,7 +44,6 @@ brew "mas"
 cask "ngrok"
 brew "pgcli"
 brew "pnpm"
-brew "pre-commit"
 brew "shellcheck"
 brew "wget"
 
