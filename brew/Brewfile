@@ -26,6 +26,7 @@ brew "node"
 
 # Dev tools
 brew "actionlint"
+brew "asdf"
 brew "aws-cdk"
 brew "clang-format"
 brew "composer"
