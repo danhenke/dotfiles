@@ -47,6 +47,7 @@ brew "pgcli"
 brew "pnpm"
 brew "shellcheck"
 brew "wget"
+brew "yq"
 
 # Infra tools
 cask "1password-cli"
