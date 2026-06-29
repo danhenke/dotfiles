@@ -15,7 +15,6 @@ cask "font-jetbrains-mono-nerd-font"
 
 # Languages
 brew "go"
-brew "php"
 brew "python"
 
 # Runtimes
@@ -28,7 +27,6 @@ brew "node"
 brew "actionlint"
 brew "aws-cdk"
 brew "clang-format"
-brew "composer"
 brew "convco"
 brew "evans"
 brew "gh"
