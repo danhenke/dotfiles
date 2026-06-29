@@ -22,10 +22,10 @@ brew "bun"
 brew "deno"
 brew "node"
 
-
 # Dev tools
 brew "actionlint"
 brew "aws-cdk"
+brew "buf"
 brew "clang-format"
 brew "convco"
 brew "evans"
