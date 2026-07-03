@@ -105,8 +105,6 @@ vscode "catppuccin.catppuccin-vsc"              # Catppuccin Theme
 vscode "catppuccin.catppuccin-vsc-icons"        # Catppuccin Icons
 vscode "tamasfe.even-better-toml"               # TOML
 vscode "bradlc.vscode-tailwindcss"              # Tailwind
-vscode "github.vscode-pull-request-github"      # GitHub PRs
-vscode "github.vscode-github-actions"           # Github Actions
 vscode "usernamehw.errorlens"                   # Error Lens
 vscode "aaron-bond.better-comments"             # Better Comments
 vscode "qufiwefefwoyn.inline-sql-syntax"        # Inline SQL
