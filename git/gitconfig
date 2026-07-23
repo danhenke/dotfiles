@@ -18,7 +18,7 @@
         helper =
         helper = !/opt/homebrew/bin/gh auth git-credential
 [alias]
-        l = log --pretty='%C(dim cyan)%h%C(reset) %C(yellow)|%C(reset) %s%C(cyan)%d%C(reset) %C(dim)by %an %ar' --first-parent -20
+        l = log --pretty='%C(dim cyan)%h%C(reset) %C(yellow)|%C(reset) %s%C(cyan)%d%C(reset) %C(dim)by %an %ar%C(reset) %C(magenta)[%G?]%C(reset)' --first-parent -20
 [push]
         followTags = true
 [remote "origin"]
