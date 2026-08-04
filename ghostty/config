@@ -14,3 +14,4 @@ keybind = shift+super+arrow_right=next_tab
 keybind = shift+super+arrow_left=previous_tab
 auto-update = check
 auto-update-channel = stable
+shell-integration-features = ssh-env,ssh-terminfo
