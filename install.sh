@@ -2,7 +2,7 @@
 set -e
 
 # Clone dotfiles repo
-git clone git@github.com:danhenke/dotfiles.git
+git clone https://github.com/danhenke/dotfiles.git
 
 # Run every script in bin dir
 export DIR="$(cd $(dirname "$0"); pwd)"
