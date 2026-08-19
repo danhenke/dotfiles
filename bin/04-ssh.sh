@@ -1,6 +1,8 @@
 # Restore SSH config
-mkdir -p "$HOME/.ssh"
-cp "$DIR/ssh/config" "$HOME/.ssh/config"
+install -d -m 700 "$HOME/.ssh"
+install -d -m 700 "$HOME/.ssh/config.d"
+install -m 600 "$DIR/ssh/config" "$HOME/.ssh/config"
+install -m 600 "$DIR/ssh/config.d/"*.conf "$HOME/.ssh/config.d/"
 
 # Ensure SSH keys are loaded in SSH agent
 if ! ssh-add -L | grep -qe "GitHub$"; then
